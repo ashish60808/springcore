@@ -10,15 +10,31 @@
 
 <!--    <context:component-scan base-package="com.springcore.stereotype"/>-->
 
-    <bean class="com.springcore.Student" name="student1">
-        <property name="studentId">
-            <value>60808</value>
-        </property>
-        <property name="studentName">
+    <bean class="com.springcore.collections.Emp" name="emp">
+        <property name="name">
             <value>Ashish Kumar</value>
         </property>
-        <property name="studentAddress">
-            <value>Bengaluru</value>
+        <property name="phones">
+            <list>
+                <value>9910554893</value>
+                <value>9625705848</value>
+                <value>9625705848</value>
+            </list>
         </property>
+        <property name="addresses">
+            <set>
+                <value>Rakkar</value>
+                <value>Delhi</value>
+                <value>Bengaluru</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="Terraform" value="2 months" />
+                <entry key="Spring boot" value="3 months"/>
+                <entry key="AWS" value="6 months"/>
+            </map>
+        </property>
+
     </bean>
 </beans>
