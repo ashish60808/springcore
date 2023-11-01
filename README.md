@@ -1,1 +1,1 @@
-Adding Spring Dependencies | Create Config File | Setter Injection 
+Injecting Collection Types[ List , Set , Map , Properties ] | Practical | Spring Framework Tutorial
